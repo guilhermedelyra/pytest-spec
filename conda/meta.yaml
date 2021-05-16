@@ -1,0 +1,15 @@
+package:
+  name: pytest-spec
+  version: 3.2.0
+
+source:
+  path: ../
+
+requirements:
+  build:
+    - python {{ python }}
+    - poetry
+
+  run:
+    - python
+    - six
