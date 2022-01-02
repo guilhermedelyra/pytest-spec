@@ -8,7 +8,6 @@ source:
 requirements:
   build:
     - python {{ python }}
-    - poetry
 
   run:
     - python
